@@ -13,21 +13,21 @@ PREFIX = config.PREFIX
 
 RPREFIX = config.RPREFIX
 
-STOP_COMMAND = ["STOP", "CHUP"]
+STOP_COMMAND = ["ايقاف", "انهاء"]
 
-PAUSE_COMMAND = ["PAUSE"]
+PAUSE_COMMAND = ["مؤقت", "وكف"]
 
-RESUME_COMMAND = ["RESUME"]
+RESUME_COMMAND = ["استمرار"]
 
-MUTE_COMMAND = ["MUTE"]
+MUTE_COMMAND = [" كتم الصوت"]
 
-UNMUTE_COMMAND = ["UNMUTE"]
+UNMUTE_COMMAND = ["رفع الكتم"]
 
-VOLUME_COMMAND = ["VOL", "VOLUME"]
+VOLUME_COMMAND = ["ضبط", "اضبط"]
 
-LOOP_COMMAND = ["LOOP"]
+LOOP_COMMAND = ["تكرار"]
 
-LOOPEND_COMMAND = ["ENDLOOP"]
+LOOPEND_COMMAND = ["انهي"]
 
 
 @app.on_message(filters.command(STOP_COMMAND, PREFIX))
