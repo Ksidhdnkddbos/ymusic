@@ -1,4 +1,4 @@
-from YMusic import app
+from YMusic import app, call
 from YMusic.core import userbot
 from YMusic.utils import ytDetails
 from YMusic.utils.queue import QUEUE, add_to_queue
